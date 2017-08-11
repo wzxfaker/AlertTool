@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "XAlertTool.h"
+
 
 @interface ViewController ()
 
@@ -16,7 +18,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    [XAlertTool showAlertWithTitle:@"" message:@"" confirmBlock:^{
+        NSLog(@"点击了确定按钮");
+    } cancelBlock:^{
+        NSLog(@"点击了取消按钮");
+    }];
+
 }
 
 

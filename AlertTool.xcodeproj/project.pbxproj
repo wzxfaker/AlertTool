@@ -15,6 +15,8 @@
 		174E2A2C1F3C9FE6006790B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 174E2A2A1F3C9FE6006790B1 /* LaunchScreen.storyboard */; };
 		174E2A371F3C9FE6006790B1 /* AlertToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 174E2A361F3C9FE6006790B1 /* AlertToolTests.m */; };
 		174E2A421F3C9FE6006790B1 /* AlertToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 174E2A411F3C9FE6006790B1 /* AlertToolUITests.m */; };
+		8460FEA41F3D40FD0028FAE5 /* UIAlertView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 8460FEA11F3D40FD0028FAE5 /* UIAlertView+Category.m */; };
+		8460FEA51F3D40FD0028FAE5 /* XAlertTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8460FEA31F3D40FD0028FAE5 /* XAlertTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		174E2A3D1F3C9FE6006790B1 /* AlertToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlertToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		174E2A411F3C9FE6006790B1 /* AlertToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertToolUITests.m; sourceTree = "<group>"; };
 		174E2A431F3C9FE6006790B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8460FEA01F3D40FD0028FAE5 /* UIAlertView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Category.h"; sourceTree = "<group>"; };
+		8460FEA11F3D40FD0028FAE5 /* UIAlertView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Category.m"; sourceTree = "<group>"; };
+		8460FEA21F3D40FD0028FAE5 /* XAlertTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XAlertTool.h; sourceTree = "<group>"; };
+		8460FEA31F3D40FD0028FAE5 /* XAlertTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XAlertTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		174E2A1B1F3C9FE5006790B1 /* AlertTool */ = {
 			isa = PBXGroup;
 			children = (
+				8460FE9F1F3D40AE0028FAE5 /* XAlertTool */,
 				174E2A1F1F3C9FE5006790B1 /* AppDelegate.h */,
 				174E2A201F3C9FE5006790B1 /* AppDelegate.m */,
 				174E2A221F3C9FE5006790B1 /* ViewController.h */,
@@ -138,6 +145,17 @@
 				174E2A431F3C9FE6006790B1 /* Info.plist */,
 			);
 			path = AlertToolUITests;
+			sourceTree = "<group>";
+		};
+		8460FE9F1F3D40AE0028FAE5 /* XAlertTool */ = {
+			isa = PBXGroup;
+			children = (
+				8460FEA01F3D40FD0028FAE5 /* UIAlertView+Category.h */,
+				8460FEA11F3D40FD0028FAE5 /* UIAlertView+Category.m */,
+				8460FEA21F3D40FD0028FAE5 /* XAlertTool.h */,
+				8460FEA31F3D40FD0028FAE5 /* XAlertTool.m */,
+			);
+			path = XAlertTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +225,7 @@
 				TargetAttributes = {
 					174E2A181F3C9FE5006790B1 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8NDM2JAGC4;
 						ProvisioningStyle = Automatic;
 					};
 					174E2A311F3C9FE6006790B1 = {
@@ -275,6 +294,8 @@
 			files = (
 				174E2A241F3C9FE5006790B1 /* ViewController.m in Sources */,
 				174E2A211F3C9FE5006790B1 /* AppDelegate.m in Sources */,
+				8460FEA51F3D40FD0028FAE5 /* XAlertTool.m in Sources */,
+				8460FEA41F3D40FD0028FAE5 /* UIAlertView+Category.m in Sources */,
 				174E2A1E1F3C9FE5006790B1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,7 +447,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8NDM2JAGC4;
 				INFOPLIST_FILE = AlertTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = XTech.AlertTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -437,7 +460,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8NDM2JAGC4;
 				INFOPLIST_FILE = AlertTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = XTech.AlertTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -509,6 +534,7 @@
 				174E2A481F3C9FE6006790B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		174E2A491F3C9FE6006790B1 /* Build configuration list for PBXNativeTarget "AlertToolTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +543,7 @@
 				174E2A4B1F3C9FE6006790B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		174E2A4C1F3C9FE6006790B1 /* Build configuration list for PBXNativeTarget "AlertToolUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +552,7 @@
 				174E2A4E1F3C9FE6006790B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
