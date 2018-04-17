@@ -17,6 +17,7 @@
 		174E2A421F3C9FE6006790B1 /* AlertToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 174E2A411F3C9FE6006790B1 /* AlertToolUITests.m */; };
 		8460FEA41F3D40FD0028FAE5 /* UIAlertView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 8460FEA11F3D40FD0028FAE5 /* UIAlertView+Category.m */; };
 		8460FEA51F3D40FD0028FAE5 /* XAlertTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8460FEA31F3D40FD0028FAE5 /* XAlertTool.m */; };
+		848F37C12019C79400B78CEB /* XAnimal.m in Sources */ = {isa = PBXBuildFile; fileRef = 848F37C02019C79400B78CEB /* XAnimal.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		8460FEA11F3D40FD0028FAE5 /* UIAlertView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Category.m"; sourceTree = "<group>"; };
 		8460FEA21F3D40FD0028FAE5 /* XAlertTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XAlertTool.h; sourceTree = "<group>"; };
 		8460FEA31F3D40FD0028FAE5 /* XAlertTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XAlertTool.m; sourceTree = "<group>"; };
+		848F37BF2019C79400B78CEB /* XAnimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XAnimal.h; sourceTree = "<group>"; };
+		848F37C02019C79400B78CEB /* XAnimal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XAnimal.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 				174E2A201F3C9FE5006790B1 /* AppDelegate.m */,
 				174E2A221F3C9FE5006790B1 /* ViewController.h */,
 				174E2A231F3C9FE5006790B1 /* ViewController.m */,
+				848F37BF2019C79400B78CEB /* XAnimal.h */,
+				848F37C02019C79400B78CEB /* XAnimal.m */,
 				174E2A251F3C9FE5006790B1 /* Main.storyboard */,
 				174E2A281F3C9FE6006790B1 /* Assets.xcassets */,
 				174E2A2A1F3C9FE6006790B1 /* LaunchScreen.storyboard */,
@@ -294,6 +299,7 @@
 			files = (
 				174E2A241F3C9FE5006790B1 /* ViewController.m in Sources */,
 				174E2A211F3C9FE5006790B1 /* AppDelegate.m in Sources */,
+				848F37C12019C79400B78CEB /* XAnimal.m in Sources */,
 				8460FEA51F3D40FD0028FAE5 /* XAlertTool.m in Sources */,
 				8460FEA41F3D40FD0028FAE5 /* UIAlertView+Category.m in Sources */,
 				174E2A1E1F3C9FE5006790B1 /* main.m in Sources */,

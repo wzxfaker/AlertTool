@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "XAlertTool.h"
+#import "XAnimal.h"
 
 
 @interface ViewController ()
@@ -27,7 +28,8 @@
     } cancelBlock:^{
         NSLog(@"点击了取消按钮");
     }];
-
+    
+    [[XAnimal new] performSelector:@selector(eat:) withObject:@"哈哈哈"];
 }
 
 
