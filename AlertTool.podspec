@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
   s.name         = "AlertTool"
 
-  s.version      = "0.0.1"
+  s.version      = "0.0.3"
 
   s.summary      = "A AlertTool which contains alertView and alertController,you can show the alert by using the same method,it will auto select the alertView/alertController base on the system!"
 
